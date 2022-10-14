@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/try.css">
+    <script defer src="js/form.js"></script>
+</head>
+<body>
+    <button class="btn1">
+        Sign in 
+
+    </button>
+    <button class="btn2">
+        Sign up
+    </button>
+    <img src="image/R.jpg" width="100%" alt="">
+    <h1>Be silent like deep water </h1>
+    <div class="bubbles">
+        <img src="image/bubbles.png" alt="" class="image1">
+        <img src="image/bubbles.png" alt="" class="image3">
+        <img src="image/bubbles.png" alt="" class="image2">
+        <img src="image/bubbles.png" alt="" class="image4">
+        <img src="image/bubbles.png" alt="" class="image5">
+        <img src="image/bubbles.png" alt="" class="image6">
+    </div>
+    <div class="div">
+        <h2 style="margin: 20px 0px 40px 5px;">Register new account</h2>
+        <form method="post" action="script.php">
+            <label for="name"> Name</label>
+            <input type="text" placeholder="First name" class="input1" id="name">
+            <input type="text" placeholder="Last name" class="input2"><br><br>
+            <label for="email" style="margin-left: 5px;">Email</label>
+            <input id="email" type="email" placeholder="Email" class="input3"><br><br>
+            <label for="" style="margin-left: 5px;">Mobile</label>
+            <input type="tel" placeholder="Enter your mobile" class="input4"  pattern="01[0-9]{9}" maxlength="11"> <br> <br>
+            <label for="list" style="margin-left: 5px;"> Country</label>
+            <input list="country" class="input5">
+            <datalist id="country">
+                <option value="Afghanistan">
+                <option value="Astralia">
+                <option value="Armenia">
+                <option value="A">
+                <option value="B">
+                <option value="B">
+                <option value="B">
+                <option value="B">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="d">
+                <option value="d">
+                <option value="d">
+                <option value="Egypt">
+                <option value="E">
+                <option value="E">
+                <option value="E">
+                <option value="E">
+            </datalist>
+            <label for="list" style="margin-left: 5px;"> City</label>
+            <input list="city" class="input6">
+            <datalist id="city">
+                <option value="Aswan">
+                <option value="Asiwt">
+                <option value="A">
+                <option value="A">
+                <option value="B">
+                <option value="B">
+                <option value="B">
+                <option value="B">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="c">
+                <option value="d">
+                <option value="d">
+                <option value="d">
+                <option value="Egypt">
+                <option value="E">
+                <option value="E">
+                <option value="E">
+                <option value="E">
+
+            </datalist>
+            <label for="" style="margin-left: 5px; margin-right: 10px;" >Password</label>
+            <input  id="password" type="password" placeholder="Password" class="input7">
+            <label for="Confirm" style="margin-left: 5px;">Confirm Password</label>
+            <input  id="Confirm" type="password" placeholder="Confirm Password" class="input8"><br><br>
+            <a href="./index.html" style="text-decoration: none; color: white;"><button id="submit" type="button" class="btn btn-primary btn-lg mybutton1">create account</button> </a>
+            <a href="./index.html" style="text-decoration: none; color: white;"><button type="button" class="btn btn-secondary btn-lg mybutton2">cancel</button></a> 
+        </form>
+    </div>
+    
+    
+
+    
+</body>
+</html>

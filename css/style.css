@@ -1,0 +1,116 @@
+body{
+background-color: #777 !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    color:#dee2e6 !important;
+}
+.navbar-brand:hover {
+    text-shadow: 10px 10px 20px white, -10px -10px 20px white;
+}
+.navbar-brand{
+    transition: 0.5s;
+}
+.dropdown-menu{
+    opacity: 0.85;
+}
+.dropdown-menu li a {
+    text-shadow: 1px 1px 0px black;
+    color: #CCCCFF !important;
+}
+.dropdown-menu li a:hover{
+    color: white !important;
+}
+.carousel-caption{
+    background-color: rgb(200, 200, 200,.3);
+    border-radius: 7px;
+}
+nav{
+    opacity: 0.8;
+}
+summary{
+    line-height: 50px;
+}
+.card-title a{
+    background-color: transparent;
+    color: #CCCCFF !important;
+}
+.card-title a:hover{
+    color: white !important;
+}
+.after{
+    position: relative;
+    left: 30px;
+
+}
+.after::after{
+    position: absolute;
+    content: " ";
+    height: 40px;
+    width: 80px;
+    background-color: lightblue;
+    top: 40px;
+    left: -15px;
+    border-radius: 5px;
+    display: none;
+}
+.after::before{
+    position: absolute;
+    content: "";
+    top: 20px;
+    left: 13px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent lightblue transparent;
+    display: none;
+}
+.after:hover::after{
+    content: "copy to clipboard";
+    display: block;
+}
+.after:hover::before{
+    display: block;
+}
+pre{
+    font-size: 18px !important;
+}
+.after:active::after{
+    content: "copied";
+    height: 25px;
+    
+}
+form{
+    margin-left: auto;
+}
+.fixedimg1{
+    background-image: url("../image/7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.pl{
+    padding: 0 11px;
+}
+.newimg{
+    background-image: url("../image/8.jpg");
+
+}
+.mt{
+    margin-top: 35px;
+    gap: 35px;
+}
+.fab{
+    background-color: rgb(96, 96, 184);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin: auto;
+    border: 1px solid black;
+
+}
